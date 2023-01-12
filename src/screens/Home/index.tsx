@@ -1,10 +1,11 @@
 import { Avatar, Container, Header, LogoImg, Title } from "./styles";
 
 import { PercentageCard } from "@components/PercentageCard";
+import { MealsList } from "@components/MealsList";
+import { Button } from "@components/Button";
 
 import avatarImg from '@assets/ellipse.png';
 import logoImg from '@assets/logo.png';
-import { Button } from "@components/Button";
 
 export function Home() {
   return (
@@ -21,6 +22,8 @@ export function Home() {
         Refeições
       </Title>
       <Button showIconAddButton title="Nova refeição" />
+
+      <MealsList />
     </Container>
   
   );

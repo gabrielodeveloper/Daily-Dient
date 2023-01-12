@@ -10,7 +10,8 @@ export const Container = styled.TouchableOpacity`
   flex-direction: row;
   
   border-radius: 6px;
-  background-color: ${({ theme }) => theme.COLORS.GRAY_700};
+  background-color: ${({ theme }) => theme.COLORS.GRAY_600};
+  margin-bottom: 32px;
 `;
 
 export const Title = styled.Text`
